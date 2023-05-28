@@ -17,8 +17,9 @@ JOBS = [
   },
     {
     'id': 3,
-    'title': 'Basebal Pitcher',
+    'title': 'Baseball Pitcher',
     'location': 'Helotes, TX',
+    'salary: $35,500'
   },
     {
     'id': 4,
