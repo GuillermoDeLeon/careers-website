@@ -19,7 +19,7 @@ JOBS = [
     'id': 3,
     'title': 'Baseball Pitcher',
     'location': 'Helotes, TX',
-    'salary: $35,500'
+    'salary': '$35,500'
   },
     {
     'id': 4,
