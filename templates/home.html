@@ -9,18 +9,26 @@
     #banner {
       height: 360px;
       width: 100%;
+      object-fit: cover;
+      margin-bottom: 16px;
     }
   </style>
 </head>
 <body>
   {% include 'nav.html' %}
+  <img class="img-fluid" id="banner" src="https://careers-website.guillermodeleon.repl.co/static/banner-dsg.jpg">
   <div class="container">
     <h1 class="text-center">{{company_name}}</h1> 
-    <img class="img-fluid" id="banner" src="https://careers-website.guillermodeleon.repl.co/static/banner-dsg.jpg">
-    <h2 class="text-center mt-2 mb-4">About G-mo jobs</h2>
+    <div class="row" style="margin-bottom: 16px">
+      <div class="col-md-6">
     <p class="lead">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor orci dapibus ultrices in iaculis nunc. Sagittis purus sit amet volutpat consequat mauris nunc. Cum sociis natoque penatibus et magnis dis parturient montes. Odio ut sem nulla pharetra diam sit. Magna fringilla urna porttitor rhoncus dolor purus non enim. Molestie ac feugiat sed lectus vestibulum 
     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6">
+      <img src="/static/people-working.jpg" style="height:320px; border-radius: 4px;">
+      </div>
+    </div>
     <p class="lead">
       Aliquam faucibus purus in massa tempor nec feugiat nisl. Magna fringilla urna porttitor rhoncus dolor purus. Faucibus scelerisque eleifend donec pretium vulputate sapien. Dictum sit amet justo donec enim diam vulputate. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Cras ornare arcu dui vivamus arcu felis. Tortor aliquam nulla facilisi cras fermentum. Egestas pretium aenean pharetra magna ac placerat        
     </p>
@@ -35,8 +43,8 @@
     </div>
     <div class="text-center">
     <button class="btn btn-primary btn-lg">Contact Us</button>
-      <p class="mt-4">Copyright 2023, Guillermo</p>
     </div>
   </div>
+    {% include 'footer.html' %}
 </body>
 </html>
